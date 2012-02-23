@@ -47,6 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+/*Clearfix*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+
 /*Actual CSS*/
 
 header {background:#004F72;
@@ -58,10 +72,20 @@ nav {background:#FFFFB0;
 
 nav ul {font-family: 'Lilita One', cursive;
   color:#F48967;
+  font-size:24px;
   list-style: none;
   display:inline;
   float:left;
   padding:0 25px;}
+  
+nav a:link {color:#F48967; 
+  text-decoration:none;}
+  
+nav a:visited {color:#F48967; 
+  text-decoration:none;}
+  
+nav a:hover {color:#F48967; 
+  text-decoration:none;}
 
 #top-intro {background:#004F72;
   margin:0 auto;}
@@ -84,14 +108,19 @@ nav ul {font-family: 'Lilita One', cursive;
   width:100%;}
 
 .blog-post {width:70%;
-float:left;
-margin: 10px 0;
-border-bottom}
+  float:left;
+  margin: 10px 0;
+  border-bottom:1px;
+  border-style:solid;}
 
 .blog-post h1 {font-family: 'Lilita One', cursive;
   font-size:36px;
   color:#FFFFB0;}
-
+  
+#recent-news h2 {font-family: 'Lilita One', cursive;
+  font-size:24px;
+  color:#F48967;}
+  
 .blog-post p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:400;
   font-size: 16px;
