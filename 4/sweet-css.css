@@ -65,6 +65,8 @@ table {
 
 header {background:#004F72;
   width:100%;}
+
+header img {float:right;}
   
 nav {background:#FFFFB0;
   height:33px;
@@ -119,7 +121,7 @@ nav a:hover {color:#F48967;
   
 #recent-news h2 {font-family: 'Lilita One', cursive;
   font-size:24px;
-  color:#F48967;}
+  color:#FFFFB0;}
   
 .blog-post p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:400;
