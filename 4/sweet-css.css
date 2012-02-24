@@ -66,18 +66,30 @@ table {
 header {background:#004F72;
   width:100%;}
 
+#arrow-space {background:#004F72;
+  width:100%;
+  height:65px;}
+
 header img {float:right;}
   
 nav {background:#FFFFB0;
-  height:33px;
   width:100%;}
+  
+#nav-wrap {float:right;
+  position:relative;
+  left:-50%;}
 
-nav ul {font-family: 'Lilita One', cursive;
+#nav-wrap ul {position:relative;
+  left:50%;
+  list-style:none;
+  text-align:center;
+  margin:0 auto;}
+
+nav li {font-family: 'Lilita One', cursive;
   color:#F48967;
   font-size:24px;
   list-style: none;
-  display:inline;
-  float:left;
+  display:inline-block;
   padding:0 25px;}
   
 nav a:link {color:#F48967; 
@@ -90,30 +102,50 @@ nav a:hover {color:#F48967;
   text-decoration:none;}
 
 #top-intro {background:#004F72;
-  margin:0 auto;}
+  width:100%;
+  padding:2em 0;}
+  
+#top-wrapper {width:90%;
+margin:0 auto;
+background:yellow;
+padding-bottom:2em;}
+  
+#top-textbox {width:50%;
+background:orange;}
   
 #top-intro h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
-  color:#FFF;}
+  color:#FFF;
+  padding-bottom:10px;}
   
 #top-intro h2 {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:600;
   font-size:16px;
-  color:#FFFFB0;}
+  line-height:24px;
+  color:#FFFFB0;
+  padding-bottom:10px;}
   
 #top-intro p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:400;
   font-size: 16px;
+  line-height:24px;
   color:#FFF;}
 
 #recent-news {background:#71AD71;
   width:100%;}
 
-.blog-post {width:70%;
-  float:left;
-  margin: 10px 0;
+.content-wrapper {width:90%;
+padding:2em;
+background:red;
+margin:0 auto;}
+
+#blog-column {width:60%;
+float:left;}
+
+.blog-post {margin-bottom: 20px;
   border-bottom:1px;
-  border-style:solid;}
+  border-style:solid;
+  padding-bottom:10px;}
 
 .blog-post h1 {font-family: 'Lilita One', cursive;
   font-size:36px;
@@ -126,7 +158,9 @@ nav a:hover {color:#F48967;
 .blog-post p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:400;
   font-size: 16px;
-  color:#000;}
+  line-height:24px;
+  color:#000;
+  padding-bottom:10px;}
 
 .blog-post p a:link {color:#FFFFB0; 
   text-decoration:none;
@@ -150,7 +184,8 @@ aside {width:20%;
 
 #twitter-feed {background:#4D4D4D;
   height:356px;
-  border-radius:10px;}
+  border-radius:10px;
+  margin-bottom:2em;}
   
 #twitter-feed h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
