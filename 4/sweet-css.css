@@ -61,7 +61,7 @@ table {
   html[xmlns] .clearfix { display: block; }
   * html .clearfix { height: 1%; }
 
-/*Actual CSS*/
+/*Header & Intro*/
 
 header {background:#004F72;
   width:100%;}
@@ -72,16 +72,13 @@ header {background:#004F72;
 
 header img {float:right;}
   
-nav {background:#FFFFB0;
+nav {background:#004F72;
   width:100%;}
   
-#nav-wrap {float:right;
-  position:relative;
-  left:-50%;}
+#nav-wrap {margin:0 auto;
+background:#FFFFB0;}
 
-#nav-wrap ul {position:relative;
-  left:50%;
-  list-style:none;
+#nav-wrap ul {list-style:none;
   text-align:center;
   margin:0 auto;}
 
@@ -107,11 +104,9 @@ nav a:hover {color:#F48967;
   
 #top-wrapper {width:90%;
 margin:0 auto;
-background:yellow;
 padding-bottom:2em;}
   
-#top-textbox {width:50%;
-background:orange;}
+#top-textbox {width:50%;}
   
 #top-intro h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
@@ -130,17 +125,19 @@ background:orange;}
   font-size: 16px;
   line-height:24px;
   color:#FFF;}
+  
+/*Body*/
 
 #recent-news {background:#71AD71;
   width:100%;}
 
 .content-wrapper {width:90%;
 padding:2em;
-background:red;
 margin:0 auto;}
 
-#blog-column {width:60%;
-float:left;}
+#blog-column {width:70%;
+float:left;
+padding-bottom:2em;}
 
 .blog-post {margin-bottom: 20px;
   border-bottom:1px;
@@ -179,7 +176,7 @@ float:left;}
   font-size: 12px;
   color:#FFFFB0;}
   
-aside {width:20%;
+aside {width:25%;
   float:right;}
 
 #twitter-feed {background:#4D4D4D;
@@ -193,24 +190,53 @@ aside {width:20%;
 
 #order-map {background:#FFFFB0;
   height:324px;
-  border-radius:10px;}
+  border-radius:10px;
+  padding:.5em;}
+  
+.center-info {width:95%;
+height:95%;
+text-align:center;
+margin:0 auto;}
 
 #order-map h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
   color:#F48967;}
+  
+#order-map img {max-width:100%;
+padding:1em;}
+
+/*Footer*/
 
 .misc-info {width:100%;
 background:#4D4D4D;}
 
-.misc-info small p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight:400;
-  font-size: 10px;
-  color:#FFF;}
+.footer-wrapper {width:90%;
+padding:2em;
+margin:0 auto;}
 
-.misc-info p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+#legal {width:45%;
+float:left;
+padding-right:1em;}
+
+#legal p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight:400;
+  font-size: 11px;
+  color:#FFF;
+  line-height:18px;
+  padding-bottom:1em;}
+  
+#fyi {width:45%;
+float:right;
+padding-left:1em;
+padding-bottom:2em;}
+
+#fyi p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:400;
   font-size: 14px;
-  color:#FFFFB0;}
+  line-height:24px;
+  color:#FFFFB0;
+  padding-bottom:1em;}
 
-/*.social-media-like {
-  list-style: none;}*/
+#social-media-like li {display:inline-block;
+  list-style: none;
+  padding:10px 10px 0 0;}
