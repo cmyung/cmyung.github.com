@@ -138,7 +138,7 @@ padding-bottom:2em;}
 padding:2em;
 margin:0 auto;}
 
-#blog-column {width:70%;
+#blog-column {width:65%;
 float:left;
 padding-bottom:2em;}
 
@@ -184,10 +184,9 @@ aside {width:25%;
   float:right;}
 
 #twitter-feed {background:#4D4D4D;
-  height:356px;
   border-radius:10px;
   margin-bottom:2em;
-  padding:.5em;}
+  padding:.6em;}
   
 #twitter-feed h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
@@ -195,9 +194,9 @@ aside {width:25%;
   margin:.5em;}
 
 #order-map {background:#FFFFB0;
-  height:324px;
   border-radius:10px;
-  padding:.5em;}
+  padding:.6em;
+  margin-bottom:20px;}
   
 .center-info {width:95%;
 height:95%;

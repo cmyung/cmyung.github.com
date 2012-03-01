@@ -28,7 +28,8 @@
 		}
 		
 			.tweet_list li a {
-				color: #F7D10D;
+				text-decoration:none;
+				color: #C69C6D;
 			}
 		
 		.tweet_list .tweet_even {
