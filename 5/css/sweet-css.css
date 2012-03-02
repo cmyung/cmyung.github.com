@@ -103,7 +103,8 @@ nav a:hover {color:#F48967;
 #top-intro {width:100%;
   padding:2em 0;
   background: url(../images/sweet-bg.jpg) no-repeat;
- background-size: 100%;}
+ background-size: 100%;
+ height:30em;}
   
 #top-wrapper {width:90%;
 margin:0 auto;
