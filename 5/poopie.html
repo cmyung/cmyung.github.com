@@ -10,10 +10,10 @@
   <link rel='shortcut icon' href='favicon.ico' />
   <link rel='stylesheet' type='text/css' href='css/poopie-css.css' />
     
-  <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oldenburg' rel='stylesheet' type='text/css'>
   
   <!-- Sea of Clouds Twitter -->
-<link href="css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/poopie-tweet.css" media="all" rel="stylesheet" type="text/css"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script language="javascript" src="js/jquery.tweet.js" type="text/javascript"></script>
 
@@ -35,14 +35,16 @@
 </head>
 
 <body>
+<div class='site-wrapper'>
 <header>
-<div class="logo-wrapper">
-<img src="poopie-logo.png" alt="Poopie Lane logo"><h1>Poopie Lane</h1>
+<div class='logo-wrapper'>
+<a href='#'><h1><img src='images/poopie-logo.png' alt='Poopie Lane logo' width='122' height='108'> Poopie Lane</h1></a>
 </div>
-<div class="hours-weather">
-<p>Today's Hours: 7am - 7pm | 30oF</p>
+<div class='hours-weather'>
+<p>Today's Hours: 7am - 7pm | 30&deg;F</p>
 </div>
-<nav class="top-nav">
+</header>
+<nav class='top-nav'>
 <div id='nav-wrap'>
   <ul>
     <li><a href='#'>Visit the Park</a></li>
@@ -53,53 +55,82 @@
   </ul>
 </div>
 </nav>
-</header>
+
 
 <section id='body-content' class='clearfix'>
+<div id='left-column'>
 
 <section id='dog-slideshow'>
-<img src='images/pug.png'>
+<img src='images/pug.jpg'>
 </section>
 
 <section id='welcome'>
 <h1>Welcome to Poopie Lane</h1>
-<p>Conveniently located in the heart of the city, Poopie Lane is Jamaica Plain’s premiere dog park. With a fenced-in area for off-leash activities, doggie fountains, complimentary poop bags, and even an agility area, you are sure to have a fun time with your pooch. We are a community of dog lovers that seek to create the best possible experience for you and your canine.</p>
+<p><img src='images/poopie-google.jpg' alt='Poopie Lane on Google Maps' width='190' height='140'>Conveniently located in the heart of the city, Poopie Lane is Jamaica Plain’s premiere dog park. With a fenced-in area for off-leash activities, doggie fountains, complimentary poop bags, and even an agility area, you are sure to have a fun time with your pooch. We are a community of dog lovers that seek to create the best possible experience for you and your canine.</p>
 </section>
 
 <article id='update'>
 <h2>Volunteers Needed for Bark in the Park</h2>
-<span class='post-date'>Posted February 29, 2012</span>
-<p>Conveniently located in the heart of the city, Poopie Lane is Jamaica Plain’s premiere dog park. With a fenced-in area for off-leash activities, doggie fountains, complimentary poop bags, and even an agility area, you are sure to have a fun time with your pooch. We are a community of dog lovers that seek to create the best possible experience for you and your canine.</p>
+<footer class='post-date'>Posted February 29, 2012</footer>
+<p><img src='images/run-dog.jpg' alt='Poopie Lane on Google Maps' width='190' height='140'>Conveniently located in the heart of the city, Poopie Lane is Jamaica Plain’s premiere dog park. With a fenced-in area for off-leash activities, doggie fountains, complimentary poop bags, and even an agility area, you are sure to have a fun time with your pooch. We are a community of dog lovers that seek to create the best possible experience for you and your canine.</p>
 </article>
+</div>
 
 <aside id='faqs'>
-<a href='#'><img src='images/park-info.png' alt='Park Location & Hours' width='336' height='114'></a>
+<div class='sidebox'>
+<a href='#'><img src='images/park-info.jpg' alt='Park Location & Hours' width='335' height='120'></a>
+</div>
 
-<a href='#'><img src='images/rules.png' alt='Park Rules' width='336' height='114'></a>
+<div class='sidebox'>
+<a href='#'><img src='images/rules.jpg' alt='Park Rules' width='335' height='120'></a>
+</div>
 
-<a href='#'><img src='images/join-friends.png' alt='Join Friends of Poopie Lane' width='336' height='114'></a>
+<div class='sidebox'>
+<a href='#'><img src='images/join-friends.png' alt='Join Friends of Poopie Lane' width='335' height='120'></a>
+</div>
 
+<div class='sidebox'>
 <div id='twitter-feed'>
 <h1>Follow @PoopieLane on Twitter</h1>
 <div class='tweet'></div>
 </div>
+</div>
 
-<a href='#'><img src='images/photo-album.png' alt='Photo Album' width='336' height='114'></a>
+<div class='sidebox'>
+<a href='#'><img src='images/photo-album.jpg' alt='Photo Album' width='335' height='120'></a>
+</div>
+
 </aside>
 </section>
 
 <footer class='bottom-footer'>
 <div class='connect'>
 <div id='newsletter'>
+<h3>Sign up for the newsletter</h3>
+	  <div id='subscribe'>
+	  <form>
+	  <input type="text" id="e-mail"/>
+	  <input type="image" src="images/poop-socmed.png" class="btn" width='32' height='32' alt='submit'/>
+	  </form>
+	  </div>
 </div>
+<div id='social-media-like'>
+  <ul>
+    <li><a href='https://www.facebook.com/haveasweetidea'><img src='images/poop-socmed.png' alt='Like on Facebook' width='32' height='32'></a></li>
+    <li><a href='https://twitter.com/#!/haveasweetidea'><img src='images/poop-socmed.png' alt='Follow on Twitter' width='32' height='32'></a></li>
+    <li><a href='https://www.facebook.com/haveasweetidea'><img src='images/poop-socmed.png' alt='Google Plus' width='32' height='32'></a></li>
+  </ul>
+</div>
+</div>
+
 <div id='legal'>
 <p>This page is maintained by Friends of Poopie Lane, a 501(c)(3) nonprofit organization dedicated to the maintenance of Poopie Lane dog park.</p>
-<p>© Friends of Poopie Lane</p>
+<p><a href='mailto:contact@poopielane.org'>© Friends of Poopie Lane</a></p>
 </div>
-
-<div id="fyi">
-
+<div style='clear:both;'>
 </div>
 </footer>
+
+</div>
 </body>
 </html>

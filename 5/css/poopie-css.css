@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Clearfix*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+
+/*Header & Intro*/
+
+body {background:#FFF;}
+
+a {text-decoration:none;}
+
+h1 {font-family: 'Oldenburg', cursive;}
+
+p {font-family: Verdana, Helvetica, Arial, sans-serif;
+color:#000;}
+
+.site-wrapper {width:1020px;
+margin:0 auto;}
+
+header {background: url(../images/poopie-banner.jpg);
+  width:100%;
+  height:175px;}
+
+.logo-wrapper {float:left;}
+
+.logo-wrapper h1 {color:#FFF;
+  font-size:65px;
+  text-shadow: 4px 4px 0px #514D33;
+  margin:45px 0 10px 25px;}
+  
+.hours-weather {float:right;
+width:300px;
+height:35px;
+background:#FFF;
+margin:120px 25px 0 0;}
+
+.hours-weather p {font-weight:bold;
+font-size:14px;
+color:#514D33;
+text-align:center;
+padding:10px;}
+
+.top-nav {background:#8FB75F;
+height:35px;
+border-top:solid 3px #FFF;
+border-bottom:solid 3px #FFF;}
+
+#nav-wrap {margin:0 auto;}
+
+#nav-wrap ul {list-style:none;
+margin:0 auto;}
+
+#nav-wrap li {float:left;
+vertical-align:middle;
+background: #8FB75F;
+border:solid 2px #FFF;}
+
+#nav-wrap li a {display:block;
+padding:10px 40px 10px 40px;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-weight:bold;
+font-size:16px;
+color:#FFF;}
+
+nav a:link {color:#FFF;}
+  
+nav a:visited {color:#FFF;}
+  
+nav a:hover {color:#FFF;
+background-color:#518B3B;}
+
+/*Body*/
+#left-column {width:680px;
+float:left;
+margin-right:5px;}
+
+#dog-slideshow {margin-top:2px;
+margin-bottom:10px;}
+
+#dog-slideshow img {max-width:100%;}
+
+#welcome {width:90%;
+padding-bottom:30px;
+border-bottom: solid 2px #514D33;}
+
+#welcome h1 {color:#514D33;
+font-size:40px;
+padding-bottom:5px;}
+
+#welcome img {padding-right:10px;
+float:left;}
+
+#welcome p {font-size:13px;
+line-height:18px;}
+
+#update {width:90%;
+padding-top:20px;}
+
+#update h2 {font-family: 'Oldenburg', cursive;
+color:#514D33;
+font-size:24px;
+padding-bottom:3px;}
+
+.post-date {font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size:12px;
+color:#514D33;
+padding-bottom:10px;}
+
+#update {padding-bottom:30px;}
+
+#update img {padding-right:10px;
+float:left;}
+
+#update p {font-size:13px;
+line-height:18px;}
+
+aside {width:335px;
+float:right;}
+
+.sidebox {margin-top:3px;}
+
+#twitter-feed {background:#6F9F40;
+  padding:.6em;}
+  
+#twitter-feed h1 {font-size:18px;
+  color:#FFF;
+  margin:.5em;}
+
+/*Footer*/
+
+.bottom-footer {background:#B3DDE9;
+padding:10px;}
+
+.connect {float:left;
+width:60%;}
+
+#newsletter h3 {font-family: 'Oldenburg', cursive;
+color:#514D33;
+font-size:18px;}
+
+#subscribe {
+vertical-align: middle;
+margin: .3em 0 .5em 0;}
+	
+#e-mail {
+width:200px;
+height:30px;
+color: #000;
+background: #FFF;
+border:0;
+vertical-align: middle;}
+
+input.btn {
+vertical-align: middle;
+margin-left:-4px;}
+
+#social-media-like li {display:inline-block;
+  list-style: none;
+  padding:10px 10px 0 0;}
+
+#legal {width:325px;
+float:right;}
+
+#legal p {font-size:10px;
+line-height:14px;
+padding-bottom:5px;}

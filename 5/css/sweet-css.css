@@ -63,16 +63,11 @@ table {
 
 /*Header & Intro*/
 
-body {background:#71AD71;}
+body {background:#71AD71;
+min-width:885px;}
 
 header {background:#004F72;
   width:100%;}
-
-/* #arrow-space {background:#004F72;
-  width:100%;
-  height:65px;}
-
-header img {float:right;} */
   
 nav {background:#004F72;}
   
@@ -90,7 +85,7 @@ nav li {font-family: 'Lilita One', cursive;
   font-size:24px;
   list-style: none;
   display:inline-block;
-  padding:0 25px;
+  padding:0 1em;
   vertical-align:middle;}
   
 nav a:link {color:#F48967; 
@@ -103,6 +98,7 @@ nav a:hover {color:#F48967;
   text-decoration:none;}
   
 #arrow-float {position:relative;}
+
 #arrow-float img {position:absolute;
 top:-75px;
 left:8px;}
@@ -142,7 +138,7 @@ margin-bottom:5em;}
 #bike-guy {width:30%;
 position:absolute;
 bottom:0;
-right:3em;}
+right:4em;}
 
 /*#bike-guy img {max-width:100%;}*/
   
@@ -222,7 +218,8 @@ margin:0 auto;}
 
 #order-map h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
-  color:#F48967;}
+  color:#F48967;
+  padding:.25em;}
   
 #order-map img {max-width:100%;}
 
