@@ -99,21 +99,20 @@ text-align:center;
 padding:10px;}
 
 .top-nav {background:#8FB75F;
-height:35px;
+width:100%;
+text-align:center;
 border-top:solid 3px #FFF;
 border-bottom:solid 3px #FFF;}
 
-#nav-wrap {margin:0 auto;}
-
-#nav-wrap ul {list-style:none;
-margin:0 auto;}
-
-#nav-wrap li {float:left;
-vertical-align:middle;
+#nav-wrap li {list-style:none;
 background: #8FB75F;
-border:solid 2px #FFF;}
+border-right:solid 3px #FFF;
+display:inline-block;}
 
-#nav-wrap li a {display:block;
+#nav-wrap li:first-child {border-left:solid 3px #FFF;}
+
+#nav-wrap li a {
+display:block;
 padding:10px 40px 10px 40px;
 font-family: Verdana, Helvetica, Arial, sans-serif;
 font-weight:bold;
