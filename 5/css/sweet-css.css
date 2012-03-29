@@ -70,10 +70,13 @@ header {background:#004F72;
   width:100%;}
   
 nav {background:#004F72;}
+
+p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight:400;}
   
 #nav-wrap {background: url(../images/sweet-top1020.jpg);
-background-repeat:repeat-x;
-padding-bottom:20px;}
+  background-repeat:repeat-x;
+  padding-bottom:20px;}
 
 #nav-wrap ul {list-style:none;
   text-align:center;
@@ -100,22 +103,22 @@ nav a:hover {color:#F48967;
 #arrow-float {position:relative;}
 
 #arrow-float img {position:absolute;
-top:-75px;
-left:8px;}
+  top:-75px;
+  left:8px;}
 
 #top-background {width:100%;
   background: url(../images/sweet-bg.jpg);
   background-size:100% 100%;
-background-repeat:no-repeat;
-position:relative;}
+  background-repeat:no-repeat;
+  position:relative;}
   
 #top-wrapper {width:90%;
-margin:0 auto;}
+  margin:0 auto;}
   
 #top-textbox {width:50%;
-position:relative;
-float:left;
-margin-bottom:5em;}
+  position:relative;
+  float:left;
+  margin-bottom:5em;}
   
 #top-background h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
@@ -129,31 +132,27 @@ margin-bottom:5em;}
   color:#FFFFB0;
   padding-bottom:10px;}
   
-#top-background p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight:400;
-  font-size: 16px;
+#top-background p {font-size: 16px;
   line-height:24px;
   color:#FFF;}
   
 #bike-guy {width:30%;
-position:absolute;
-bottom:0;
-right:4em;}
+  position:absolute;
+  bottom:0;
+  right:4em;}
 
-/*#bike-guy img {max-width:100%;}*/
-  
 /*Body*/
 
 #recent-news {background:#71AD71;
   width:100%;}
 
 .content-wrapper {width:90%;
-padding:2em;
-margin:0 auto;}
+  padding:2em;
+  margin:0 auto;}
 
 #blog-column {width:60%;
-float:left;
-padding-bottom:2em;}
+  float:left;
+  padding-bottom:2em;}
 
 .blog-post {margin-bottom: 20px;
   border-bottom:1px;
@@ -168,9 +167,7 @@ padding-bottom:2em;}
   font-size:24px;
   color:#FFFFB0;}
   
-.blog-post p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight:400;
-  font-size: 16px;
+.blog-post p {font-size: 16px;
   line-height:24px;
   color:#000;
   padding-bottom:10px;}
@@ -212,9 +209,9 @@ aside {width:30%;
   margin-bottom:20px;}
   
 .center-info {width:95%;
-height:95%;
-text-align:center;
-margin:0 auto;}
+  height:95%;
+  text-align:center;
+  margin:0 auto;}
 
 #order-map h1 {font-family: 'Lilita One', cursive;
   font-size:24px;
@@ -226,31 +223,27 @@ margin:0 auto;}
 /*Footer*/
 
 .misc-info {width:100%;
-background:#4D4D4D;}
+  background:#4D4D4D;}
 
 .footer-wrapper {width:90%;
-padding:2em;
-margin:0 auto;}
+  padding:2em;
+  margin:0 auto;}
 
 #legal {width:45%;
-float:left;
-padding-right:1em;}
+  float:left;
+  padding-right:1em;}
 
-#legal p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight:400;
-  font-size: 11px;
+#legal p {font-size: 11px;
   color:#FFF;
   line-height:18px;
   padding-bottom:1em;}
   
 #fyi {width:45%;
-float:right;
-padding-left:1em;
-padding-bottom:2em;}
+  float:right;
+  padding-left:1em;
+  padding-bottom:2em;}
 
-#fyi p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight:400;
-  font-size: 14px;
+#fyi p {font-size: 14px;
   line-height:24px;
   color:#FFFFB0;
   padding-bottom:1em;}
