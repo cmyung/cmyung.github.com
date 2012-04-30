@@ -271,7 +271,7 @@ margin-bottom:10px;}
 #poll {background-color:#FFF;
 padding-bottom:1em;}
 
-#poll p {font-family: "ff-meta-web-pro",trebuchet, sans-serif;
+.webPoll {font-family: "ff-meta-web-pro",trebuchet, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size:16px;

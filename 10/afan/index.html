@@ -117,15 +117,63 @@
 	<h2>Poll</h2>
 	</div>
 	<div id='content-wrapper'>
+	<form class='webPoll' method='post' action='slump.php'>
 	<h4>How do you stay awake when the afternoon slump hits?</h4>
-	<form>
-	<p><input type='radio' name='stayawake' value='energy shot' /> Energy shot</p>
-	<p><input type='radio' name='stayawake' value='caffeinated beverage' /> Caffeinated beverage (coffee, soda)</p>
-	<p><input type='radio' name='stayawake' value='inhaler' /> Caffeine inhaler</p>
-	<p><input type='radio' name='stayawake' value='energy shot' /> Gum</p>
-	<p><input type='radio' name='stayawake' value='energy shot' /> Go for a walk</p>
-	<p><input type='radio' name='stayawake' value='energy shot' /> Stay fuzzy-headed until 2nd wind</p>
-	<p><input type='radio' name='stayawake' value='energy shot' /> I don’t stay awake, I take a nap</p>
+	<fieldset>
+	<ul>
+	<li>
+	<label class='poll_active'>
+	<input type='radio' name='AID' value='0'>
+	Energy shot
+	</label>
+	</li>
+	
+	<li>
+	<label class='poll_active'>
+	<input type='radio' name='AID' value='0'>
+	Caffeinated beverage (coffee, soda)
+	</label>
+	</li>
+	
+	<li>
+	<label class='poll_active'>
+	<input type='radio' name='AID' value='0'>
+	Caffeine inhaler
+	</label>
+	</li>
+	
+	<li>
+	<label class='poll_active'>
+	<input type='radio' name='AID' value='0'>
+	Gum
+	</label>
+	</li>
+	
+	<li>
+	<label class='poll_active'>
+	<input type='radio' name='AID' value='0'>
+	Go for a walk
+	</label>
+	</li>
+	
+	<li>
+	<label class='poll_active'>
+	<input type='radio' name='AID' value='0'>
+	Stay fuzzy-headed until 2nd wind
+	</label>
+	</li>
+	
+	<li>
+	<label class='poll_active'>
+	<input type='radio' name='AID' value='0'>
+	I don’t stay awake, I take a nap
+	</label>
+	</li>
+	</ul>
+	</fieldset>
+	<p class='buttons'>
+	<button type='submit' class='vote'>Vote</button>
+	</p>
 	</form>
 	</div>
 	</section>
