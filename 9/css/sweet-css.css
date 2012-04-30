@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Clearfix*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+
+/*Header & Intro*/
+
+body {background:#71AD71;
+min-width:885px;}
+
+header {background:#004F72;
+  width:100%;}
+  
+nav {background:#004F72;}
+
+p {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight:400;}
+  
+#nav-wrap {background: url(../images/sweet-top1020.jpg);
+  background-repeat:repeat-x;}
+
+#nav-wrap ul {list-style:none;
+  text-align:center;
+  margin:0 auto;
+  padding-top:14px;}
+
+nav li {font-family: 'Lilita One', cursive;
+  color:#F48967;
+  font-size:24px;
+  list-style: none;
+  display:inline-block;
+  padding:0 1em;
+  vertical-align:middle;}
+  
+nav a:link {color:#F48967; 
+  text-decoration:none;}
+  
+nav a:visited {color:#F48967; 
+  text-decoration:none;}
+  
+nav a:hover {color:#F48967; 
+  text-decoration:none;}
+  
+#arrow-float {position:relative;}
+
+#arrow-float img {position:absolute;
+  top:-75px;
+  left:8px;}
+
+#top-background {width:100%;
+  background: url(../images/sweet-bg.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  position:relative;}
+  
+#top-background-small {width:100%;
+  background: url(../images/sweet-bg-small.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  position:relative;}
+  
+#top-wrapper {width:90%;
+  margin:0 auto;}
+  
+#top-wrapper-small {width:90%;
+  margin:-3.5em auto 0 auto;}
+  
+#top-textbox {width:50%;
+  position:relative;
+  float:left;
+  margin-bottom:5em;
+  margin-top:1.5em;}
+  
+#top-background h1 {font-family: 'Lilita One', cursive;
+  font-size:24px;
+  color:#FFF;
+  padding-bottom:10px;}
+  
+#top-background h2 {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight:600;
+  font-size:16px;
+  line-height:24px;
+  color:#FFFFB0;
+  padding-bottom:10px;}
+  
+#top-background p {font-size: 16px;
+  line-height:24px;
+  color:#FFF;}
+  
+#bike-guy {width:30%;
+  position:absolute;
+  bottom:0;
+  right:4em;}
+  
+#bike-guy-small {width:35%;
+  float:right;
+  bottom:0;
+  right:4em;}
+
+/*Body*/
+
+h1 {font-family: 'Lilita One', cursive;
+  font-size:36px;
+  color:#FFFFB0;}
+  
+h2 {font-family: 'Lilita One', cursive;
+  font-size:24px;
+  color:#FFFFB0;}
+  
+p {font-size: 16px;
+  line-height:24px;
+  color:#000;
+  padding-bottom:10px;}
+
+p a:link {color:#FFFFB0; 
+  text-decoration:none;
+  font-weight:600;}
+  
+p a:visited {color:#FFFFB0; 
+  text-decoration:none;
+  font-weight:600;}
+  
+p a:hover {color:#FFFFB0; 
+  text-decoration:none;
+  font-weight:600;}
+  
+h4 {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight:400;
+  font-size: 16px;
+  line-height:24px;
+  color:#004F72;
+  padding-bottom:10px;}
+
+#recent-news {background:#71AD71;
+  width:100%;}
+
+.content-wrapper {width:90%;
+  padding:2em;
+  margin:0 auto;}
+
+#blog-column {width:60%;
+  float:left;
+  padding-bottom:2em;}
+
+.blog-post {margin-bottom: 20px;
+  border-bottom:1px;
+  border-style:solid;
+  padding-bottom:10px;}
+
+.blogdate {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight:400;
+  font-size: 12px;
+  color:#FFFFB0;
+  padding:.5em 0 1em 0;}
+  
+h3 {font-family: 'Lilita One', cursive;
+  font-size:24px;
+  color:#FFFFB0;
+  margin-bottom:3px;}
+  
+.contact {margin-bottom:1em;}
+  
+aside {width:30%;
+  float:right;}
+
+#twitter-feed {background:#4D4D4D;
+  border-radius:10px;
+  margin-bottom:2em;
+  padding:.6em;}
+  
+#twitter-feed h1 {font-family: 'Lilita One', cursive;
+  font-size:24px;
+  color:#FFFFB0;
+  margin:.5em;}
+  
+#twitter-feed h1 a:link {color:#FFFFB0;
+text-decoration:none;}
+
+#twitter-feed h1 a:visited {color:#FFFFB0;
+text-decoration:none;}
+
+#order-map {background:#FFFFB0;
+  border-radius:10px;
+  padding:.6em;
+  margin-bottom:20px;}
+  
+.center-info {width:95%;
+  height:95%;
+  text-align:center;
+  margin:0 auto;}
+
+#order-map h1 {font-family: 'Lilita One', cursive;
+  font-size:24px;
+  color:#F48967;
+  padding:.25em;}
+  
+#order-map img {max-width:100%;}
+
+/*Footer*/
+
+.misc-info {width:100%;
+  background:#4D4D4D;}
+
+.footer-wrapper {width:90%;
+  padding:2em;
+  margin:0 auto;}
+
+#legal {width:45%;
+  float:left;
+  padding-right:1em;}
+
+#legal p {font-size: 11px;
+  color:#FFF;
+  line-height:18px;
+  padding-bottom:1em;}
+  
+#fyi {width:45%;
+  float:right;
+  padding-left:1em;
+  padding-bottom:2em;}
+
+#fyi p {font-size: 14px;
+  line-height:24px;
+  color:#FFFFB0;
+  padding-bottom:1em;}
+
+#social-media-like li {display:inline-block;
+  list-style: none;
+  padding:10px 10px 0 0;}
